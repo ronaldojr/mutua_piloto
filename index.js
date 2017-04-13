@@ -90,15 +90,19 @@
       marzipanoScene.hotspotContainer().createHotspot(element, { yaw: hotspot.yaw, pitch: hotspot.pitch });
     });
 
-    marzipanoScene.hotspotContainer().createHotspot(document.querySelector(".info1"), { yaw: 1.6268713749804666, pitch: -0.09193107350277607 });
-    marzipanoScene.hotspotContainer().createHotspot(document.querySelector(".info2"), { yaw: 2.476988142104158, pitch: -0.6601633164920528 });
-    marzipanoScene.hotspotContainer().createHotspot(document.querySelector(".info3"), { yaw: -2.65106194511365, pitch: -0.21492736589761563 });
+    marzipanoScene.hotspotContainer().createHotspot(document.querySelector(".info1"), { yaw: 1.449357561446785, pitch: -0.4148307962124207 });
+    marzipanoScene.hotspotContainer().createHotspot(document.querySelector(".info2"), { yaw: 2.1626026028915986, pitch: -0.931121974522334 });
+    marzipanoScene.hotspotContainer().createHotspot(document.querySelector(".info3"), { yaw: -2.5137524504756996, pitch: 0.0368110594493416 });
+    marzipanoScene.hotspotContainer().createHotspot(document.querySelector("#reveal"), { yaw: -1.709170322804633, pitch: -0.14759126871118866 });
+    marzipanoScene.hotspotContainer().createHotspot(document.querySelector("#info"), { yaw: -0.2125936971236122, pitch: -0.4708207491473271 });
     
     return {
       data: sceneData,
       marzipanoObject: marzipanoScene
     };
   });
+
+
 
 
 

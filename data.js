@@ -29,14 +29,7 @@ var APP_DATA = {
         "fov": 1.5707963267948966
       },
       "linkHotspots": [],
-      "infoHotspots": [
-        {
-          "yaw": -0.8847450020951673,
-          "pitch": 0.1232543193572031,
-          "title": "Logo",
-          "text": "Text"
-        }
-      ]
+      "infoHotspots": [],
     }
   ],
   "name": "Project Title",

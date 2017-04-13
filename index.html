@@ -9,6 +9,8 @@
 <link rel="stylesheet" href="vendor/reset.min.css">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="./css/textInfo.css">
+<link rel="stylesheet" href="./css/reveal.css">
+<link rel="stylesheet" href="./css/info.css">
 </head>
 <body class="single-scene view-control-buttons">
 
@@ -91,8 +93,44 @@
   </div>
 </div>
 
-<script src="js/textInfo.js"></script>
+<div id="reveal">
+  <img src="img/photo.png">
+  <div class="reveal-content">
+    <img src="img/logo.jpg">
+    <p>Lorem ipsum dolor.</p>
+  </div>
+</div>
 
+
+<div id="info">
+  <div class="icon_wrapper">
+    <div class="icon">
+      <div id="inner_icon" class="inner_icon">
+        <div class="icon1"></div>
+        <div class="icon2"></div>
+      </div>
+    </div>
+  </div>
+  <div class="tip">
+    <p>Clique para abrir</p>
+  </div>
+  <div class="content">
+  <div class="image-wrapper">
+     <img src="img/logo.jpg">
+  </div>
+    <div class="content-form">
+      <p>Preencha o formulário para receber notícias</p>
+      <div>
+        <input id="email" type="text" placeholder="Email">
+      </div>
+      <p>Apenas teste, sem envio de informações.</p>
+    </div>
+    <div class="button_wrapper">
+      <button class="close">Fechar</button>
+    </div>
+  </div>
+</div>
+<script src="js/info.js" ></script>
 
 <script src="vendor/es5-shim.js"></script>
 <script src="vendor/eventShim.js"></script>
